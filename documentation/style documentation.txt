@@ -1,0 +1,4 @@
+﻿H1(55px) --- Jumbotron etc
+h2(35px) --- Section heading, e.g about etc
+h3(20px) --- heading in section sub-content.
+h4 --- 
