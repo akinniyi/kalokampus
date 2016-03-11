@@ -109,7 +109,7 @@ body footer {
       display: inline-block;
       line-height: 20px; }
 
-body div > section {
+body > div > section {
   padding: 50px 0; }
 
 .sub_heading_map {
@@ -308,6 +308,19 @@ select, input {
       margin-top: auto;
       margin-bottom: auto; }
 
+.reviews {
+  background-color: #25b899;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 10px;
+  margin: 20px 0; }
+  .reviews h3 {
+    color: #004C4E; }
+  .reviews > div {
+    padding: 0;
+    margin: 5px 0;
+    border-top: 1px solid #004C4E; }
+
 .section_1 {
   background-color: #25b899;
   color: #fff; }
@@ -366,19 +379,21 @@ nav li {
       border-bottom: solid #21b9a4 6px; }
   .search_form_section form {
     padding: 100px 0; }
-    .search_form_section form label, .search_form_section form input {
+    .search_form_section form label {
       display: inline-block;
-      font-size: 0.9em;
-      font-weight: 900;
+      font-weight: 600;
       letter-spacing: 0.07em;
       padding: 0;
-      margin: 0; }
-    .search_form_section form input {
+      margin: 0;
+      color: #555555; }
+    .search_form_section form input, .search_form_section form textarea {
+      display: inline-block;
       border: 0;
-      border-bottom: 2px solid black;
-      font-size: 1.5em;
+      border-bottom: 2px solid #888888;
+      font-size: 1.2em;
       margin-bottom: 10px;
-      padding: 10px 0; }
+      padding: 10px 0;
+      color: #888888; }
     .search_form_section form i {
       margin: 0;
       padding: 10px 0;

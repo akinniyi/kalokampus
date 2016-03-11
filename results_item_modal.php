@@ -1,64 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include_once('heading.inc.php');?>
+<?php include_once('header.inc.php');?>
 
-  <title>Kalokampus</title>
-  <meta name="description" content="Kalokampus">
-  
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <link rel="stylesheet" href="styles/main.css">
-  <link href="styles/bootstrap.min.css" rel="stylesheet">
-
- <!-- <link rel="stylesheet" href="styles/bootstrap.min.css">-->
-  
-  <script src="js/bootstrap.min.js"></script>    
-  
-   <link rel="stylesheet" href="styles/uncompiled_main.css">
-  <link rel="canonical" href="http://kalokampus.com/"> 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-  
-
-</head>
-<body>
-<div class="container-fluid">
-    <header class="row">
-    <div class="col-md-6 col-md-push-3">
-    <div class="row">
-        <nav class="col-md-4">
-            <span>LINKS</span>   	
-        </nav>
-        
-        <a href="#" class="col-md-4 logo_main">
-            <img src="" title="Kalokampus logo">
-        </a>
-        
-        <nav class="main_nav col-md-4 text-right">
-            <ul>
-                <li class="iconized">Find</li><li class="iconized">Find</li>
-            </ul>	
-        </nav>
-    </div></div>
-    </header>
-
-    <section class="row section_1" id="">
-        <div class="col-md-6 col-md-push-3">
-            <div class="row">
-                <div class="col-md-12 sub_heading_map">
-                <form>
-                	<select><option selected>Campus </option></select> > 
-                    <select><option selected>Apartments</option></select> > 
-                    <input value="&quot;DJ in Osekita&quot;"/>
-                    <label for="submit" class="button_rounded_med ion-ios-search-strong"> FIND</label>
-                    
-                </form>
-                </div>
-            </div>
-        </div>
-   	</section>
+<?php include_once('sub_heading_map.inc.php');?>
     
     <section class="row" id="" >
         <div class="col-md-6 col-md-push-3 ">
@@ -175,23 +118,4 @@
         </div>
    	</section>
 
-
-    <footer class="row">
-    <div class="col-md-6 col-md-push-3">
-    <div class="row">
-        <div class="col-md-6">
-             <a href="#" class="logo_main">
-            	KALOKAMPUS, 2015.
-             </a>
-        </div>
-        
-        <ul class="col-md-6">
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Have suggestions?</a></li>
-        </ul>
-    </div></div>
-    </footer>
-</div>
-</body>
-</html>
+<?php include_once('footer.inc.php');?>
