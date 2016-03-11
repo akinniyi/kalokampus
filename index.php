@@ -6,15 +6,13 @@
     <div class="col-md-6 col-md-push-3">
     <div class="row">
         <div class="col-md-12 jumbotron">
-            <h1 class="text-center">FIND APARTMENTS AND SERVICES</h1>	
+            <h1 class="text-center">FIND SERVICES</h1>	
             <h3 class="text-center">around your campus</h3>
         </div>
         
         <section class="search_form_section  no_padding  col-md-10 col-md-push-1">
-            <ul role="heading" class="no_margin row text-center">
-                <li class="col-md-6 active" tabindex="0">NEED A SERVICE</li>
-                <li class="col-md-6" tabindex="0">NEED AN APARTMENT</li>
-            </ul>
+           <h3 class="col-xs-12 no_margin text-center">NEED A SERVICE</h3>
+           
             <div class="row" id="form_find_services">
                 <form class="col-md-6 col-md-push-3 text-left">
                  <span class="col-xs-12 text-center">Complete the form to find a service near you</span><br /><br />
@@ -136,7 +134,7 @@
         </div>    
     </section>
       
-    <section class="row">
+    <section class="hidden-xs row">
     </section>
     
     <section class="row section_1 slanted-top" id="">

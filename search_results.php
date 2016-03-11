@@ -9,11 +9,11 @@
         <div class="col-md-6 col-md-push-3 ">
 
             <div class="row results">
-                <div class="col-md-12 sub_heading_desc">
-                	<span class="col-md-9 text-left">Search results: <b>41</b> items related to <b>"DJ in Osekita"</b></span>
-                    <div class="col-md-3 text-right"><i class="ion-funnel"> </i>
-                    <select class=""><option selected>Sort by time</option><option selected>Sort by relevance</option></select>
-                    </div>
+                <div class="col-md-12 sub_heading_desc"><div class="row">
+                	<span class="col-sm-9 col-xs-12 text-left">Search results: <b>41</b> items related to <b>"DJ in Osekita"</b></span>
+                    <div class="col-sm-3 col-xs-12 text-left"><i class="ion-funnel"> </i>
+                    	<select class=""><option selected>Sort by time</option><option selected>Sort by relevance</option></select>
+                    </div></div>
                 </div>
                 
                 <div class="col-md-12 listing">

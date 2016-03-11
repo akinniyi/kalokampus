@@ -46,7 +46,7 @@ h3{font-family:Open Sans;font-size:1.3em;letter-spacing:0.01em;line-height:1.5em
 h4{font-size:1em;}
 p{font-family:Open Sans;line-height:1.8em;}
 
-.linear_bg {
+.linear_bg{
   background-color: #1a82f7;
 
   background: -webkit-gradient(linear, 0% 0%, 0% 60%, from($bg_color_ter), to(#00524E));
@@ -111,7 +111,7 @@ padding:30px 0;
 background-color:$bg_color_ter;
 color:$color_sec;
 }
-body  footer{
+footer{
 padding:20px 0;
 background-color:$bg_color_ter;
 color:$color_sec;
@@ -120,7 +120,7 @@ positon:relative;
 		ul{
 		padding:0;
 		margin:0;
-		display:inline-block;
+		display:inline-block;}
 		li{
 			list-style-type:none;
 			float:left;
@@ -128,7 +128,7 @@ positon:relative;
 			display:inline-block;
 			line-height:20px;
 		}
-	}
+	
 	
 }
 
@@ -186,7 +186,20 @@ color:#fff;
 				padding:0 60px 0 0;
 				color:$bg_color_sec;
 			}
-}	
+}
+.pagination{
+	li{display:inline-block;float:left;padding:10px;
+	&:first-of-type{padding-left:0;}
+	}
+	
+}
+.listing{
+  
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.09), 0 0 5px rgba(0,0,0,0.09);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.09), 0 0 5px rgba(0,0,0,0.09);					
+	box-shadow: 0 0 5px rgba(0,0,0,0.09), 0 0 5px rgba(0,0,0,0.09);padding-top:10px;padding-bottom:10px;
+
+}
 .results{
 	>div, >header{
 	margin:0 0 30px 0;
@@ -397,17 +410,11 @@ display:inline-block;
 	-moz-box-shadow: 0 0 60px rgba(0,0,0,0.24), 0 0 60px rgba(0,0,0,0.24);					
 	box-shadow: 0 0 60px rgba(0,0,0,0.24), 0 0 60px rgba(0,0,0,0.24);
 	border-top-left-radius:8px;border-top-right-radius:8px;
-	margin:80px 0;background-color:#fff;color:#000;
+	margin:80px 0;background-color:#fff;color:#000;padding:0;
 						   
-  ul{background-color: $bg_color_ter; color:#fff; font-weight:bold; font-size:1.1em;
-  	padding:0px 0px; border-top-left-radius:8px;border-top-right-radius:8px;
-	
-	}
-  
-  li{list-style-type:none; padding:30px 20px;cursor:pointer;
-  		&.active{border-bottom:solid $bg_color_ter_lighter 6px;}
-		&:hover{border-bottom:solid $bg_color_ter_lighter 6px;}
-  }
+  h3{background-color: $bg_color_ter; color:#fff; font-weight:bold;font-size:1.1em;
+  	padding:10px 0px;margin:0; border-top-left-radius:8px;border-top-right-radius:8px;}
+
 	  form{
 		padding:100px 0;
 	  
@@ -522,3 +529,111 @@ position:relative;
     -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
     transform: rotate(-3deg);
 	}
+
+@media(max-width:414px){
+	h1{font-size:2.0em;}
+	h2{font-size:1em;}
+	h3{font-size:0.7em;letter-spacing:0.01em;line-height:1.5em;}
+	h4{font-size:0.5em;}
+	p{}
+	.jumbotron{margin:0;}
+	body div > header{padding:5px 0;}
+	.search_form_section{ 
+		border-top-left-radius:0px;border-top-right-radius:0px;
+		margin:30px 0;
+							   
+	  h3{border-top-left-radius:0px;border-top-right-radius:0px;}
+	  
+
+		  form{
+			padding:80px 0 200px 0;
+		  
+				  label{
+					display:inline-block;font-weight:600;
+					letter-spacing:0.07em;
+					padding:0;
+					margin:0;
+					color:#555555;
+					
+				  }
+				  
+				  input, textarea{
+				  display:inline-block;
+				  border:0;
+				  border-bottom:2px solid #888888;
+				  font-size:1.2em; 
+				  margin-bottom:10px;
+				  padding:10px 0;
+				  color:#888888;
+				  }
+				  i{
+				  margin:0;
+				  padding:10px 0;
+				  line-height:inherit;
+				  }
+				  .button_rounded_med{
+					-moz-box-shadow: 0px 4px 0px 0px #c07607;
+					-webkit-box-shadow: 0px 4px 0px 0px #c07607;
+					box-shadow: 0px 4px 0px 0px #c07607;
+					margin:15px 0;
+				  }
+				  
+			}
+	}
+	
+	nav ul{
+		padding:0;
+		margin:0;
+		display:inline-block;
+		
+		}
+		
+		nav li{
+		list-style-type:none;
+		float:left;
+		padding:0 10px;
+		display:inline-block;
+			&:hover{
+			border-bottom:solid 1px $bg_color_sec;
+			}
+		}
+
+	.sub_heading_map{
+		padding:25px 0;
+		.button_rounded_med{padding:2px 7px;}
+		select{min-width:120px;}input{min-width:120px;min-width:160px;overflow:hidden;}.button,.btn,button{margin:5px 0;}
+	}
+	
+	.sub_heading_desc{
+		padding-top:10px;padding-bottom:10px;height:auto;
+		border:none; border-radius:0px 0px 0 0;
+		h2{
+			 font-size:1.8em;letter-spacing:0.05em;margin:0 0 10px 0;line-height:1em;;
+			}
+		}
+
+	.results{
+	
+		h3{
+			font-size:1.1em;
+			color:$bg_color_pry;
+		}
+		
+		.poster, .date_time{
+			text-transform:capitalize;
+			font-size:12px;
+			min-width:173px;
+			height:21px;
+		}
+		.footer{
+			font-weight:600;
+			margin-top:14px;
+			color:grey;
+		}
+	}
+	footer{
+	padding:10px 0;
+	li{float:right;padding:0 5px;}
+	}
+
+}

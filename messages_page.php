@@ -16,7 +16,7 @@
                     <span>Messages</span>
                 </div>
             </header>
-    		<section class="col-md-9 ">
+    		<section class="results">
             <div class="col-md-12 listing">
                 <h3>DJ Real For Your Parties</h3>
                 <img src="" alt="DJ Real" width="90" height="90"/>
